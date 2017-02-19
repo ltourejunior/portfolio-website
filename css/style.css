@@ -7,8 +7,10 @@ body {
     color: white;
     background-color:white;
 }
-h1{
+h2{
     color: deepskyblue;
+    letter-spacing: 1px;
+    text-align: center;
 }
 
 
@@ -136,6 +138,8 @@ p {
     padding: 35px;
     margin: 0 auto;
     background: transparent url(../img/paris&defense.jpg) center center/cover no-repeat no-repeat scroll;
+    display: table-cell;
+    vertical-align: middle;
 }
 
 #tabsaboutme{
@@ -165,26 +169,28 @@ p {
     margin-bottom: 5%;
 }
 #skills {
-    list-style: none;
     text-align: center;
     
 }
 #skills li{
     
     padding: 0.5%;
-
+    list-style: none;
+}
+#resume li{
+    
+    padding: 0.5%;
+    list-style: none;
 }
 
 #projects{
     position: relative;
     padding: 35px;
+    display: table-cell;
+    vertical-align: middle;
 }
 
-#projects h1 {
-    text-align: center;
-}
-
-#one-project {
+#one-project, #second-project {
     padding-left: 0;
     padding-right: 0;
 }
